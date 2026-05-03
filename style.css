@@ -159,3 +159,12 @@ main {
     flex: 1;
     margin: 0;
 }
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #b9efff;
+
+    display: flex;
+    flex-direction: column;   /* THIS makes everything vertical */
+    align-items: center;
+}
