@@ -132,39 +132,3 @@ footer {
     border-bottom: 2px solid #008cba;
     padding-bottom: 5px;
 }
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-main {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-main {
-    display: flex;
-    gap: 40px;
-    padding: 20px 50px;
-}
-
-.hero {
-    flex: 1;
-    padding: 40px 20px;
-}
-
-.about {
-    flex: 1;
-    margin: 0;
-}
-.hero {
-    text-align: center;
-    padding: 40px 20px;
-    background-color: #b9efff;
-
-    display: flex;
-    flex-direction: column;   /* THIS makes everything vertical */
-    align-items: center;
-}
