@@ -37,12 +37,13 @@ nav a, footer a {
 
 .hero {
     text-align: center;
-    padding: 40px 20px;
+    padding: 45px 20px;
     background-color: #b9efff;
 }
 
 .hero h1 {
     font-size: 42px;
+    margin-bottom: 10px;
 }
 
 .hero span {
@@ -61,56 +62,41 @@ nav a, footer a {
 }
 
 .about {
-    max-width: 500px;
-    margin: 40px auto;
+    max-width: 1100px;
+    margin: 35px auto;
     background: white;
-    padding: 30px;
+    padding: 30px 40px;
     border-radius: 10px;
-    text-align: center;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 45px;
+}
+
+.about-text {
+    flex: 2;
+    text-align: left;
+}
+
+.about-text p {
+    line-height: 1.4;
+}
+
+.about-image img {
+    width: 200px;
+    border-radius: 10px;
 }
 
 footer {
     background-color: #1f3c4d;
     color: white;
     text-align: center;
-    padding: 20px;
-}
-.about-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 30px;
-}
-
-.about-text {
-    flex: 1;
-    text-align: left;
-}
-
-.about-image img {
-    width: 180px;
-    border-radius: 10px;
-}
-main {
-    min-height: calc(100vh - 150px);
-}
-
-.hero {
-    padding: 55px 20px;
-}
-
-.about {
-    margin: 25px auto;
-    padding: 25px;
-}
-
-.projects {
-    padding: 25px 20px;
-}
-
-footer {
     padding: 18px;
 }
+
 .resume-container {
     max-width: 800px;
     margin: 40px auto;
@@ -126,35 +112,10 @@ footer {
 }
 
 .resume-container p {
-    line-height: 1;
+    line-height: 1.5;
 }
+
 .resume-container h2 {
     border-bottom: 2px solid #008cba;
     padding-bottom: 5px;
 }
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-main {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-main {
-    display: flex;
-    gap: 20px;
-    padding: 20px 50px;
-}
-
-.hero {
-    flex: 1;
-    padding: 40px 20px;
-}
-
-.about {
-    flex: 1;
-    margin: 0;
