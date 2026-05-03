@@ -144,3 +144,18 @@ main {
     align-items: center;
     justify-content: center;
 }
+main {
+    display: flex;
+    gap: 40px;
+    padding: 20px 50px;
+}
+
+.hero {
+    flex: 1;
+    padding: 40px 20px;
+}
+
+.about {
+    flex: 1;
+    margin: 0;
+}
